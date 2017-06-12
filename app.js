@@ -7,7 +7,7 @@ var path = require('path');
 var cors = require('cors');
 var appEnv = cfenv.getAppEnv();
 
-//Setup Cloudant Service.
+//Setup Cloudant Service .
 cloudantService = appEnv.getService("myMicroservicesCloudant");
 
 //Setup middleware.
